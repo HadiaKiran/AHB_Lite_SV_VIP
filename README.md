@@ -18,7 +18,7 @@
 ### Transaction Class
 * Fields required to generate the stimulus are declared in the transaction class.
 * Transaction class can also be used as a placeholder for the activity monitored by the monitor on DUT signals.
-* So, the first step is to declare the Fields‘ in the transaction class.
+* So, the first step is to declare the Fieldsâ€˜ in the transaction class.
 
 ### Generator Class
  Generator class is responsible for:
@@ -56,19 +56,18 @@ The test is responsible for:
 
 ## Supported Simulators & Tools
 - [x] Aldec Riviera Pro 2020.04
-- [x] Cadence Xcelium 20.09
 - [x] Mentor Questa 2021.3
 - [x] Synopsys VCS 2020.03
 
 ## Tests Included
 - [x] Single Burst
-- [x] Increment Burst of Undefined Length
+- [x] Incremental Burst of Undefined Length (INCR)
 - [x] INCR & WRAP Tests (4,8,16 Beats)
 
 ## How to run a test
 
-1. Change contraints in the `transaction.sv` file according to the test you want to run.
-2. Comment/uncomment the tests to be run in the `environment.sv` file.
-3. You can change the number of transactions to be run from the `random_test.sv` file by changing `repeat_count` value.
+1. Change contraints in the `transaction.sv` file according to the case you want to check.
+2. Comment/uncomment tests in the "env.sv" file.
+3. You can change the number of transactions to be run from the test class file by changing count value.
 
 
